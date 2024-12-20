@@ -17,4 +17,4 @@ while diff.seconds >= 0:
     diff = new - now 
     
     # print "there´s X seconds left, X minutes, X hours and X days"
-    print(f"there are {diff.seconds} seconds left, there are {diff.seconds / 60} minutes left, there are {diff.seconds /3600} hours left, there are {diff.days} days left") 
+    print(f"there are {diff.seconds} seconds left, there are {round(diff.seconds / 60)} minutes left, there are {round(diff.seconds /3600)} hours left, there are {diff.days} days left") 
